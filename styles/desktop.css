@@ -1,0 +1,59 @@
+/* changes in index.html */
+.background__info{
+    height: 34.4vh;
+}
+/* changes in profile.html */
+.card{
+    max-width: 60rem;
+}
+.card--self{
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+   padding: 6rem 0;
+}
+.card__image--profile{
+    width: 20rem;
+    height: 20rem;
+}
+.card__tittle{
+    font-size:3.2rem;
+}
+.secondBlog__news{
+    display: grid;
+    align-items: flex-end;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    max-width: 99.8rem;
+    margin: 0 auto;
+}
+.card__image--projects img{
+    width: 100%;
+    height: 38vh;
+    object-fit: cover;
+}
+.card__button{
+    margin-bottom: 8rem;
+}
+.card__button--end{
+    margin-bottom: 4rem;
+}
+
+/* changes in blogs.html */
+.card--mainNews{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    align-items: flex-start;
+    max-width: 86.4rem;
+    column-gap: 4rem;
+}
+.mainBlog__container--blogs h2 {
+    margin: 3.6rem 0;
+    align-self: center;
+}
+/* changes in blog.html */
+.news{
+    max-width: 78.4rem;
+}

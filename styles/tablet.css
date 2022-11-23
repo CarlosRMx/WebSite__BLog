@@ -1,0 +1,57 @@
+/* changes in header */
+.header{
+    height: 8.4rem;
+}
+.headerTop{
+    display: flex;
+    justify-content: end;
+    margin-right: 2rem;
+}
+.headerTop__container{
+    margin-right: 2rem;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav__right{
+    margin-right: 2.6rem;
+}
+.background__info{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 1fr 3fr 1fr;
+    height: 54vh;
+}
+.background__info p{
+    grid-column: 2/3;
+    font-size: 3.6rem;
+    align-self: center;
+}
+.background__container{
+    grid-column: 2/3;
+    align-self: center;
+}
+.background__button{
+    padding: 1.4rem 4rem;
+    font-size: 1.8rem;
+}
+/* changes in the file blogs.html */
+.card__button{
+    margin-bottom: 4rem;
+}
+/* changes in the file blog.html */
+.news__brand{
+    margin-bottom: 4rem;
+    font-size: var(--md);
+}
+.contact--blog{
+    margin-top: 6rem;
+}
+/*changes in the sections contact*/
+.contact__main{
+    display: flex;
+    gap: 6rem;
+}
