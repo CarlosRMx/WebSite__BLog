@@ -39,6 +39,9 @@
     font-size: 1.8rem;
 }
 /* changes in the file blogs.html */
+.card{
+    max-width: 52.4rem;
+}
 .card__button{
     margin-bottom: 4rem;
 }
